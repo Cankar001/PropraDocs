@@ -1,35 +1,14 @@
 ---
 sidebar_position: 1
+sidebar_label: Getting started
 ---
 
-# Tutorial Intro
+# Getting started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- ``git clone https://github.com/hhu-propra2/praktikum-gruppe-24``
+- Open project in Intellij
+- Insert your `database` data and your `Github credentials` into the `.env` file
+- Insert your `database` data and your `Github credentials` into the Intellij environment variable section
+- Start the docker container with `docker-compose up --build` 
+- Run the program and visit [http://localhost:8080](http://localhost:8080)
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
