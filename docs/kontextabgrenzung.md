@@ -23,7 +23,7 @@ Die Organisator:innen müssen am Ende des Praktikums die Anwesenheit der Studier
 ## Technischer Kontext
 
 ### Github OAuth
-Die User melden sich per GitHub an über die die OAuth API
+Die User melden sich per GitHub über die die OAuth API an.
 
 ### HHU LSF
-Die Authentifizierung für Klausuren erfolg über das LSF der HHU anhand der Veranstaltungs-Ids
+Die Authentifizierung für Klausuren erfolg über das LSF der HHU anhand der Veranstaltungs-Ids.
