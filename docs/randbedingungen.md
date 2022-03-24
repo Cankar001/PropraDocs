@@ -21,7 +21,7 @@ Beim Lösungsentwurf waren zu Beginn verschiedene Randbedingungen zu beachten, s
 |Vorgehensmodell|Entwicklung erst anhand von UML, kleinere Änderungen während der Entwicklung|
 |Entwicklungswerkzeuge|Java, Springboot, IntelliJ, MariaDB, H2 In-Memory|
 |Konfigurations- und Versionsverwaltung|Git bei Github|
-|Testwerkzeuge & Prozesse|JUnit, WebMVC, Mockito|
+|Testwerkzeuge & Prozesse|JUnit, WebMVC, Mockito, ArchUnit|
 
 ## Konventionen
 
