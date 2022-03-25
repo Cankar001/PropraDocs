@@ -8,7 +8,7 @@ sidebar_label: Querschnittliche Konzepte
 Dieser Abschnitt beschreibt allgemeine Strukturen und Aspekte, die systemweit gelten. Darüber hinaus stellt er verschiedene technische Lösungskonzepte vor.
 
 ## 8.1 Abhängigkeiten
-ChickenApplication folgt dem konzept der Onion-Architektur, und ist somit wie im folgenden unterteilt:
+ChickenApplication folgt dem Konzept der Onion-Architektur, und ist somit wie im folgenden unterteilt:
 
 ![UML zur Beschreibung der genaueren Struktur](\img\UML-8.PNG)
 
