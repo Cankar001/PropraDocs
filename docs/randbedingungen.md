@@ -28,5 +28,5 @@ Beim Lösungsentwurf waren zu Beginn verschiedene Randbedingungen zu beachten, s
 |Konvention|Erläuterung, Hintergrund|
 |--------------|:-----:|
 |Architekturdokumentation|	Terminologie und Gliederung nach dem deutschen arc42-Template|
-|Sprache|Bennenung der Klassen mit angelsächsischen Verben, Benennung der Klassen in Deutsch|
+|Sprache|Bennenung der Klassen mit englischen Verben, Benennung der Klassen in Deutsch|
 |Datenformate|Verwendung der Standard-DateTime, Date und Time Klassen von Java|
