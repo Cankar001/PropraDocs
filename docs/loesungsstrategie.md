@@ -34,6 +34,6 @@ Die Interaktion zwischen Algorithmen­Teilen erfolgt über den Austausch fachlic
 
 Die Anwendung wird alleinig über die Interaktion mit den Websites gesteuert, es findet keine Kontrolle oder Eingabe über die Konsole statt.
 
-![Startseite aus Sicht eines Studenten](img\Startseite.JPG)
+<img src="require('img\Startseite.JPG')" alt="Startseite aus Sicht eines Studenten">
 
 Im Hintergrund werden die eingegebenen Daten verwaltet, während die Anwendung auch während Berechnungen im Hintergrund reaktiv bleibt und weiter nutzbar ist.

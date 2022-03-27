@@ -15,7 +15,6 @@ ChickenApplication folgt dem Konzept der Onion-Architektur, und ist somit wie im
 ## 8.2 Die User
 Die Anwendung ist von 3 verschiedenen Rollen aus nutzbar, den Studenten, den Tutoren und den Organisatoren.
 
-![]()
 <img src="{require('img/User2.JPG')}" alt="Diagramm der Rollen">
 
 Die Anmeldung erfolgt über GitHub, wonach der User anhand seiner ID identifiziert wird.
@@ -33,7 +32,7 @@ Identifiziert werden Studenten über ihre GitHub-ID
 ## 8.4 Das Klausur-Aggregat
 
 Klausuren speichern ihr Datum, so wie ihre Start- und Endzeit.
-Wichtig zu beachten ist, dass die Freistellung nicht intern gespeichert wird, sondern über die Methoden getStartExemption() und getEndExemption() angefragt werden kann.
+Wichtig zu beachten ist, dass die Freistellung nicht intern gespeichert wird, sondern über die Methoden `getStartExemption()` und `getEndExemption()` angefragt werden kann.
 Die Flag isOnline definiert, ob die Klausur in Präsenz stattfindet, was dementsprechend die Ausgabe der Freistellungen beeinflusst.
 Identifiert wird die Klausur über ihre LSF-ID.
 
