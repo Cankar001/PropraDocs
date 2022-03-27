@@ -12,7 +12,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'Cankar001', // Usually your GitHub org/user name.
   projectName: 'PropraDocs', // Usually your repo name.
-  staticDirectories: ['img'],
+  //staticDirectories: ['img'],
 
   presets: [
     [
