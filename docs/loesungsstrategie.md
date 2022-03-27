@@ -18,15 +18,14 @@ Dieser Abschnitt enthält einen stark verdichteten Architekturüberblick. Eine 
 
 ## 4.2 Der Aufbau von ChickenApplication
 
-Chicken Application ist als Java-Programm im Spring Framework realisiert, und dgrob in folgende Teile zerlegt:
+Chicken Application ist als Java-Programm im Spring Framework realisiert, und grob in folgende Teile zerlegt:
 
 - Klausurverwaltung
 - Urlaubsverwaltung
 - Kontrolle der Zugriffsrechte
-- Auslieferung der Websites um mit der Software zu interagieren
 
 Dank dieser Zerlegung ist die Änderung von Zugriffsrechten, so wie die Einführung neuer Bestandteile simpel und effizient.
-Alle Teile sind durch Schnittstellen abstrahiert, die Implementierungen werden per Dependency Injection zusammengesteckt. Die Zerlegung erlaubt es weiterhin die Software, allen voran die Schachalgorithmen, leicht automatisiert zu testen.
+Alle Teile sind durch Schnittstellen abstrahiert, die Implementierungen werden per Dependency Injection zusammengesteckt. Die Zerlegung erlaubt es weiterhin der Software leicht und automatisiert getestet zu werden.
 
 Die Interaktion zwischen Algorithmen­Teilen erfolgt über den Austausch fachlich motivierter Datenstrukturen, realisiert als Klassen.
 
@@ -36,4 +35,3 @@ Die Anwendung wird alleinig über die Interaktion mit den Websites gesteuert, es
 
 <img src="/img/Startseite.JPG" alt="Startseite aus Sicht eines Studenten" />
 
-Im Hintergrund werden die eingegebenen Daten verwaltet, während die Anwendung auch während Berechnungen im Hintergrund reaktiv bleibt und weiter nutzbar ist.
