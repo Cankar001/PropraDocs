@@ -12,7 +12,7 @@ Dieser Abschnitt enthält einen stark verdichteten Architekturüberblick. Eine 
 |Qualitätsziel|Dem zuträgliche Ansätze in der Architektur|
 |--------------|:-----:|
 |Analysierbarkeit| <ul><li>Architekturüberblick nach arc42</li><li>Klares Domänemodell</li></ul>|
-|Änderbarkeit|<ul><li>verbreitete Programmiersprache (Java)</li><li>Klare Kapselung der Aufgaben und Aggregate</li><li>Dependency Injection führt zu Austauschbarkeit</li></ul>|
+|Änderbarkeit|<ul><li>verbreitete Programmiersprache (Java)</li><li>Klare Kapselung der Aufgaben und Aggregate</li></ul>|
 |Interaktion|<ul><li>Klare Trennung der Zugriffe anhand der Rollen</li><li>Die Rollen interagieren fließend miteinander</li><li>Das Programm bildet ein geschlossenes System mit gezielter Funktionalität</li></ul>|
 
 
