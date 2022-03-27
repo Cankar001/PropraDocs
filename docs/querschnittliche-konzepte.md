@@ -10,12 +10,12 @@ Dieser Abschnitt beschreibt allgemeine Strukturen und Aspekte, die systemweit ge
 ## 8.1 Abhängigkeiten
 ChickenApplication folgt dem Konzept der Onion-Architektur, und ist somit wie im folgenden unterteilt:
 
-<img src="{require('img/UML-8.PNG')}" alt="UML zur Beschreibung der genaueren Struktur" />
+<img src="/img/UML-8.PNG" alt="UML zur Beschreibung der genaueren Struktur" />
 
 ## 8.2 Die User
 Die Anwendung ist von 3 verschiedenen Rollen aus nutzbar, den Studenten, den Tutoren und den Organisatoren.
 
-<img src="{require('img/User2.JPG')}" alt="Diagramm der Rollen" />
+<img src="/img/User2.JPG" alt="Diagramm der Rollen" />
 
 Die Anmeldung erfolgt über GitHub, wonach der User anhand seiner ID identifiziert wird.
 Die Rolle eines Users bestimmt, auf welche Views er Zugriff hat, und somit auch, aauf welche Bedienelemente der Application.
