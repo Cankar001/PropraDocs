@@ -7,7 +7,7 @@ sidebar_label: Qualitätsanforderungen
 
 Die folgende Darstellung zeigt anhand eines Qualitätsbaumes einen Überblick über die relevanten Qualitätsmerkmale und nennt Beispiele, an welchen Stellen sie in der Anwendung erfüllt werden.
 
-<img src="require('img\QualityTree.PNG')" alt="Qualitätsbaum">
+<img src="require('img\QualityTree.PNG')" alt="Qualitätsbaum" />
 
 
 ## 10.2 Qualitätsszenarien
