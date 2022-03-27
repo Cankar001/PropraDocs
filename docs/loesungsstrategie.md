@@ -27,8 +27,6 @@ Chicken Application ist als Java-Programm im Spring Framework realisiert, und gr
 Dank dieser Zerlegung ist die Änderung von Zugriffsrechten, so wie die Einführung neuer Bestandteile simpel und effizient.
 Alle Teile sind durch Schnittstellen abstrahiert, die Implementierungen werden per Dependency Injection zusammengesteckt. Die Zerlegung erlaubt es weiterhin der Software leicht und automatisiert getestet zu werden.
 
-Die Interaktion zwischen Algorithmen­Teilen erfolgt über den Austausch fachlich motivierter Datenstrukturen, realisiert als Klassen.
-
 ## 4.3 Die Anbindung
 
 Die Anwendung wird alleinig über die Interaktion mit den Websites gesteuert, es findet keine Kontrolle oder Eingabe über die Konsole statt.

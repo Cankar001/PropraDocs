@@ -13,7 +13,7 @@ Die Aggregate und ihre Bestandteile werden im folgenden detailliert erklärt, un
 
 Im der folgenden Grafik ist eine Übersicht aller Bausteine zu sehen, aus welchen die Applikation besteht.
 
-<img src="/img/OnionJens.PNG" alt="Diagramm der Rollen" /> ÄNDERN
+<img src="/img/OnionJens.png" alt="Diagramm der Rollen" />
 
 Der Grundlegendste Teil ist die Unterscheidung der verschiedenen User, welche nur auf ihre jeweiligen Views Zugriff haben sollen.
 
