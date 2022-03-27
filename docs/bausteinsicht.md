@@ -15,8 +15,6 @@ Im der folgenden Grafik ist eine Übersicht aller Bausteine zu sehen, aus welche
 
 <img src="/img/OnionJens.png" alt="Diagramm der Rollen" />
 
-Der Grundlegendste Teil ist die Unterscheidung der verschiedenen User, welche nur auf ihre jeweiligen Views Zugriff haben sollen.
-
 |Qualitätsziel|Dem zuträgliche Ansätze in der Architektur|
 |--------------|:-----:|
 |Controller|Die Controller steuern die Auslieferung und die Zugriffskontrolle der Views.|
