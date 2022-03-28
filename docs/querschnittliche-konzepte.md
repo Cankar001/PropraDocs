@@ -8,7 +8,7 @@ sidebar_label: Querschnittliche Konzepte
 Dieser Abschnitt beschreibt allgemeine Strukturen und Aspekte, die systemweit gelten. Darüber hinaus stellt er verschiedene technische Lösungskonzepte vor.
 
 ## 8.1 Abhängigkeiten
-ChickenApplication folgt dem Konzept der Onion-Architektur, und ist somit wie im folgenden unterteilt:
+ChickenApplication folgt dem Konzept der Onion-Architektur und ist folgendermaßen unterteilt:
 
 <img src="/img/UML-8.png" alt="UML zur Beschreibung der genaueren Struktur" />
 
@@ -16,7 +16,7 @@ ChickenApplication folgt dem Konzept der Onion-Architektur, und ist somit wie im
 Die Anwendung ist von 3 verschiedenen Rollen aus nutzbar, den Studenten, den Tutoren und den Organisatoren.
 
 Die Anmeldung erfolgt über GitHub, wonach der User anhand seiner ID identifiziert wird.
-Die Rolle eines Users bestimmt, auf welche Views er Zugriff hat, und somit auch, aauf welche Bedienelemente der Application.
+Die Rolle eines Users bestimmt, auf welche Ansichten er Zugriff hat, und somit auch, auf welche Bedienelemente der Application.
 
 ## 8.3 Das Student-Aggregat
 Der Student speichert seine Klausuranmeldungen, so wie seine angemeldeten Urlaubseinträge.
@@ -56,15 +56,15 @@ Die Controller nutzen Zugriff auf den ApplicationService, um Anfragen zu stellen
 
 Der UrlaubValidator prüft, ob Urlaubseingaben valide sind, er  implementiert das "Validator"-Interface.
 Die Überprüfung beinhaltet, ob der Urlaub passend in 15 Minuten-Blöcken eingegeben wird, die Zeiten sinnvoll eingegeben, und alle notwendigen Eingaben vorhanden sind.
-Bei Fehlern wird eine entsprechende Error-Message generiert, die von außen angefragt werden kann, bei erfolgreicher Prüfung ein Pair aus LocalDateTimes.
+Bei Fehlern wird eine entsprechende Error-Message generiert, die von außen angefragt werden kann, bei erfolgreicher Prüfung wird ein Pair aus LocalDateTimes zurückgegeben.
 
 ## 8.9 KlausurValidator
-Der KlasurValiddator prüft, ob Klausureingaben gültig sind, er implementiert das "Validator"-Interface
+Der KlasurValiddator prüft, ob Klausureingaben gültig sind, er implementiert das "Validator"-Interface.
 Die Überprüfung beinhaltet, ob die Klausur passend in 15 Minuten-Blöcken eingegeben wird, die Zeiten sinnvoll eingegeben, und alle notwendigen Eingaben vorhanden sind.
-Bei Fehlern wird eine entsprechende Error-Message generiert, die von außen angefragt werden kann, bei erfolgreicher Prüfung ein Klausur-Objekt.
+Bei Fehlern wird eine entsprechende Error-Message generiert, die von außen angefragt werden kann, bei erfolgreicher Prüfung wird ein Klausur-Objekt zurückgegeben.
 
 ## 8.10 Validadtor-Interface
-Das Validator-Interface bietet die Methode "validate", mit der die Eingaben für den jeweiligen Validator überprüft werden können, so wie die Methode getErrorMessage(), um den entsprechenden Fehler zu identifizieren.
+Das Validator-Interface bietet die Methode "validate", mit der die Eingaben für den jeweiligen Validator überprüft werden können, so wie die Methode `getErrorMessage()`, um den entsprechenden Fehler zu identifizieren.
 
 ## 8.11 Der StudentService
 Der StudentService kann Urlaub anpassen und neue Buchungen in bereits vorhandene Einträge einfügen.
